@@ -1,6 +1,6 @@
 /*
- * Problem: https://inha.codetree.ai/missions/2/problems/gold-mining/description
- * File: Simulation_1_4.cpp
+ * Problem: https://inha.codetree.ai/missions/2/problems/best-place-of-33/description
+ * File: Simulation_1_1.cpp
  * Author: Hyeonjun Jo (aaiss0927@naver.com)
  * Date: 2024-01-25
  * License: MIT License
