@@ -15,7 +15,7 @@ int n, m;
 int grid[20][20];
 
 bool check(int row, int col) {
-	return (row >= 0 && row < n&& col >= 0 && col < n);
+	return (row >= 0 && row < n && col >= 0 && col < n);
 }
 
 int find_gold(int i, int j, int k) {

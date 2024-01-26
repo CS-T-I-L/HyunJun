@@ -45,6 +45,4 @@ int main() {
 
 	sort(num_coins.begin(), num_coins.end());
 	cout << num_coins.back();
-
-	return 0;
 }
