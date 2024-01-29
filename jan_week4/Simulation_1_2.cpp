@@ -46,6 +46,7 @@ int main() {
 
 	for (int i = 0; i < n; i++) {
 		int cont = 1;
+		
 		for (int j = 1; j < n; j++) {
 			if (grid[j][i] == grid[j - 1][i]) {
 				cont++;
