@@ -38,7 +38,6 @@ int find_gold(int i, int j, int k) {
 
 int main() {
 	cin >> n >> m;
-
 	for (int i = 0; i < n; i++) {
 		for (int j = 0; j < n; j++) {
 			cin >> grid[i][j];
