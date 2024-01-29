@@ -34,7 +34,7 @@ int main() {
 			cin >> grid[i][j];
 		}
 	}
-
+	
 	vector<int> num_coins;
 
 	for (int i = 0; i < n - 2; i++) {
