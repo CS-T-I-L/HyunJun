@@ -40,15 +40,19 @@ int get_rectangle_max_sum(int i, int j) {
 		for (int d = 0; d < (*it).first; d++) {
 			sum += grid[cur_i--][cur_j++];
 		}
+		
 		for (int d = 0; d < (*it).second; d++) {
 			sum += grid[cur_i--][cur_j--];
 		}
+		
 		for (int d = 0; d < (*it).first; d++) {
 			sum += grid[cur_i++][cur_j--];
 		}
+		
 		for (int d = 0; d < (*it).second; d++) {
 			sum += grid[cur_i++][cur_j++];
 		}
+		
 		maxi = max(maxi, sum);
 	}
 	return maxi;
